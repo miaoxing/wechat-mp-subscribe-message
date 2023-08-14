@@ -1,12 +1,12 @@
 <?php
 
-use Miaoxing\Plugin\BaseController;
+use Miaoxing\Plugin\BasePage;
 use Miaoxing\Services\Page\ItemTrait;
 use Miaoxing\Services\Service\UpdateAction;
 use Miaoxing\WechatMpSubscribeMessage\Service\WechatMpSubscribeMessageTemplateModel;
 use Wei\V;
 
-return new class () extends BaseController {
+return new class () extends BasePage {
     use ItemTrait;
 
     protected $className = '小程序订阅消息模板';

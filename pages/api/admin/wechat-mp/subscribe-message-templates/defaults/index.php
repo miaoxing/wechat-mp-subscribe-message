@@ -1,10 +1,10 @@
 <?php
 
-use Miaoxing\Plugin\BaseController;
+use Miaoxing\Plugin\BasePage;
 use Miaoxing\Services\Page\DefaultsTrait;
 use Miaoxing\WechatMpSubscribeMessage\Service\WechatMpSubscribeMessageTemplateModel;
 
-return new class () extends BaseController {
+return new class () extends BasePage {
     use DefaultsTrait;
 
     public function createModel(): WechatMpSubscribeMessageTemplateModel
