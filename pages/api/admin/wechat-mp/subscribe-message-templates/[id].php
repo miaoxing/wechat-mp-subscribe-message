@@ -19,7 +19,7 @@ return new class () extends BasePage {
     public function patch()
     {
         return UpdateAction::new()
-            ->validate(function (WechatMpSubscribeMessageTemplateModel $template, $req) {
+            ->validate(static function (WechatMpSubscribeMessageTemplateModel $template, $req) {
                 $v = V::defaultOptional()->defaultNotEmpty();
                 $v->setModel($template);
                 $v->modelColumn('name', '名称')->requiredIfNew();
