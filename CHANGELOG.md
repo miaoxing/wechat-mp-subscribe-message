@@ -1,3 +1,21 @@
+# [1.2.0](https://github.com/miaoxing/wechat-mp-subscribe-message/compare/v1.1.14...v1.2.0) (2024-07-31)
+
+
+### Features
+
+* **u:** 调整页面内容为卡片视图 ([5910877](https://github.com/miaoxing/wechat-mp-subscribe-message/commit/591087751284b9d699708abde9e93dc1e8b3ab81))
+
+
+
+
+
+### Dependencies
+
+* **@miaoxing/dev:** upgrade from `9.1.1` to `9.1.2`
+* **@miaoxing/plugin:** upgrade from `0.15.0` to `0.15.1`
+* **@miaoxing/services:** upgrade from `0.9.3` to `0.9.4`
+* **@miaoxing/admin:** upgrade from `0.13.2` to `0.14.0`
+
 ## [1.1.14](https://github.com/miaoxing/wechat-mp-subscribe-message/compare/v1.1.13...v1.1.14) (2024-06-30)
 
 
