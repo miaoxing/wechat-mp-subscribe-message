@@ -5,7 +5,7 @@ use Miaoxing\Services\Page\CollGetTrait;
 use Miaoxing\Services\Page\PostToPatchTrait;
 use Miaoxing\WechatMpSubscribeMessage\Service\WechatMpSubscribeMessageTemplateModel;
 
-return new class () extends BasePage {
+return new class extends BasePage {
     use CollGetTrait;
     use PostToPatchTrait;
 
