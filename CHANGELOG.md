@@ -1,3 +1,21 @@
+# [1.3.0](https://github.com/miaoxing/wechat-mp-subscribe-message/compare/v1.2.2...v1.3.0) (2024-09-01)
+
+
+### Features
+
+* 插件增加 wei 命令行入口 ([a630b9f](https://github.com/miaoxing/wechat-mp-subscribe-message/commit/a630b9faa99c0b1b64eee8343c73115d6a4b2635))
+
+
+
+
+
+### Dependencies
+
+* **@miaoxing/dev:** upgrade from `9.1.3` to `9.2.0`
+* **@miaoxing/plugin:** upgrade from `0.15.2` to `0.16.0`
+* **@miaoxing/services:** upgrade from `0.9.5` to `0.9.6`
+* **@miaoxing/admin:** upgrade from `0.15.1` to `0.15.2`
+
 ## [1.2.2](https://github.com/miaoxing/wechat-mp-subscribe-message/compare/v1.2.1...v1.2.2) (2024-08-03)
 
 
